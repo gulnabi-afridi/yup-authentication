@@ -1,0 +1,45 @@
+export const responseStyles = {
+  container: '',
+  inputError:"text-[red] text-[14px]",
+  heading: 'mt-24 mb-4 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl',
+  textarea: 'block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6',
+  imageContainer: 'mt-4 relative',
+  image: 'rounded-lg',
+  imageOverlay: 'absolute bottom-[7%] left-[50%] -translate-x-1/2 flex gap-4 w-full px-4 justify-between',
+  input: 'block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6',
+  submitButton: 'flex max-w-sm mx-auto w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 opacity-70 hover:opacity-100',
+  generateButton: 'flex max-w-md mx-auto w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 opacity-70 hover:opacity-100',
+  downloadButton: 'flex max-w-md mx-auto w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 opacity-70 hover:opacity-100',
+};
+
+export const userInputFormStyles = {
+  titleInput: "block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6",
+  title: 'block text-sm font-medium leading-6 text-gray-900',
+  inputError:"text-[red] text-[14px]",
+  inputContainer: 'mt-2',
+  radioButton: "h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600",
+  dropdownButton: "mt-2 flex w-full justify-between gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50",
+  dropdownOption: "block px-4 py-2 text-sm cursor-pointer",
+  menu: 'relative block text-left',
+  chevronIcon: '-mr-1 h-5 w-5 text-gray-400',
+  menuItems: 'absolute right-0 z-10 mt-2 w-full origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none',
+  activeItem:'bg-gray-100 text-gray-900',
+  nonActiveItem: 'text-gray-700',
+  selectOneItemTitle: 'block text-sm font-medium leading-6 text-gray-900',
+  radioItemsContainer: 'mt-2 space-y-4 flex flex-col gap-3 sm:space-y-0',
+  radioItemAndLabelContainer: "flex items-center",
+  radioItemLabel: 'ml-3 block text-sm font-medium capitalize leading-6 text-gray-900',
+  submitButtonContainer: 'mt-4',
+  submitButton: "flex max-w-sm mx-auto w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600",
+  dropdownLabel:'block text-sm font-medium leading-6 text-gray-900',
+  enter: "transition ease-out duration-100",
+  enterFrom: "transform opacity-0 scale-95",
+  enterTo: "transform opacity-100 scale-100",
+  leave: "transition ease-in duration-75",
+  leaveFrom: "transform opacity-100 scale-100",
+  leaveTo: "transform opacity-0 scale-95",
+};
+
+export const userInputAndResponseStyles = {
+  container: 'mt-12 mx-auto max-w-2xl',
+}
