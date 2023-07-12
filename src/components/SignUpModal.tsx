@@ -154,7 +154,7 @@ export const SignUpModal = ({ isOpen, setIsOpen, onSignInBtnClick }: Props) => {
                       </button>
                     </div>
                   </form>
-               
+
                   <div>
                     <div className={tailwindStyles.orTextDashContainer}>
                       <div
