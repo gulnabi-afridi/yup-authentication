@@ -16,7 +16,7 @@ type Props = {
 type FormValueType = {
   email: string;
   password: string;
-  rememberMe: boolean;
+  rememberMe: boolean | undefined;
 };
 
 const FormInitialValue = {
